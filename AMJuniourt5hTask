@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string firstName = "Adam";
+        string secondName = "Sendler";
+        Console.WriteLine(firstName + " " + secondName);
+        string temp;
+        temp = firstName;
+        firstName = secondName;
+        secondName = temp;
+        Console.WriteLine(firstName + " " + secondName);
+    }
+}
